@@ -1,0 +1,13 @@
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    grid-template-rows: repeat(3,200px);
+    
+}
+.gallery img{
+    height: 100%;
+    width: 100%;
+    border: 10px solid white;
+    box-shadow: rgb(79, 75, 75);
+}
